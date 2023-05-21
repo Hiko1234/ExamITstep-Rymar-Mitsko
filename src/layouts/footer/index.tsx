@@ -1,15 +1,15 @@
 import React from "react";
-// import Link
+//Link
 import Link from "next/link";
-// import styles
-import s from "./Footer.module.scss";
-//import components
-import Container from "@/components/container";
-//import Image
+//Image
 import Image from 'next/image';
-//Logo
+//styles
+import s from "./Footer.module.scss";
+//components
+import Container from "@/components/container";
+//Footer Logo
 import logo from '../../assets/img/footerLogo.png';
-//Social
+//Social icons
 import facebook from '../../assets/img/facebook.png';
 import telegram from '../../assets/img/telegram.png';
 
@@ -73,10 +73,16 @@ const Footer = () => {
               </div>
 
               <div className={s.footer__block_nav_social}>
-                <h3 style={{ color: '#fff' }}>
+                <h3 style={{
+                  color: '#fff'
+                }}>
                   Тримайте руку на пульсі
                 </h3>
-                <p style={{ color: '#fff', fontWeight: '500', fontSize: '16' }}>
+                <p style={{
+                  color: '#fff',
+                  fontWeight: '500',
+                  fontSize: '16'
+                }}>
                   слідкуйте за оновленнями<br />
                   в соц. мережах
                 </p>
@@ -88,6 +94,7 @@ const Footer = () => {
                       width={32}
                       height={32}
                       alt="Facebook"
+                      className={s.footer__block_nav_social_link_element}
                     />
                   </Link>
 
@@ -97,6 +104,7 @@ const Footer = () => {
                       width={32}
                       height={32}
                       alt="Telegram"
+                      className={s.footer__block_nav_social_link_element}
                     />
                   </Link>
                 </div>
