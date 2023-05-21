@@ -1,0 +1,48 @@
+@import "@/styles/variables.scss";
+
+.contacts {
+    display: flex;
+    &__address {
+        display: flex;
+        gap: 18px;
+        align-items: flex-start;
+
+        &_data {
+            p {
+                font-size: 16px;
+                font-weight: 500;
+                color: $black;
+                margin: 0;
+                line-height: 18px;
+            }
+        }
+
+        &_dataLink {
+            font-size: 13px;
+            font-weight: 400;
+            color: $mainPink;
+            transition: 0.3s;
+            &:hover{
+                color: $pinkHover;
+            }
+        }
+    }
+
+    &__numbers {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        text-decoration: none;
+        color: $black;
+        transition: 0.3s;
+
+        &:hover {
+            color: $blackHover;
+        }
+
+        &_number {
+            font-size: 32px;
+            font-weight: 700;
+        }
+    }
+}
