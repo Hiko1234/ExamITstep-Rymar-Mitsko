@@ -2,6 +2,9 @@
 
 .social{
     color: $white;
+    @media(max-width: $mp4){
+        text-align: center;
+    }
 
     &__title{
         font-size: 20px;
@@ -15,6 +18,9 @@
         display: flex;
         gap: 13px;
         align-items: center;
+        @media(max-width: $mp4){
+            justify-content: center;
+        }
         &_link{
             text-decoration: none;
             font-size: 14px;

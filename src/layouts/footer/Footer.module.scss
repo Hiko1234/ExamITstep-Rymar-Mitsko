@@ -7,6 +7,11 @@
     &__body{
         display: flex;
         align-items: flex-start;
+        @media(max-width: $mp3){
+            flex-direction: column;
+            align-items: center;
+            row-gap: 30px;
+        }
     }
     &__logo{
         flex: 1 1 auto;
@@ -15,5 +20,15 @@
         display: flex;
         gap: 87px;
         align-items: flex-start;
+        @media(max-width: $mp1){
+            gap: 48px;
+        }
+        @media(max-width: $mp2){
+            gap: 20px;
+        }
+        @media(max-width: $mp4){
+            flex-direction: column;
+            align-items: center;
+        }
     }
 }
