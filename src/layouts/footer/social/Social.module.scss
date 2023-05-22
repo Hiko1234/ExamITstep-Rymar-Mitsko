@@ -1,0 +1,32 @@
+@import "@/styles/variables.scss";
+
+.social{
+    color: $white;
+
+    &__title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    &__subtext{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &__links{
+        display: flex;
+        gap: 13px;
+        align-items: center;
+        &_link{
+            text-decoration: none;
+            font-size: 14px;
+            color: $white;
+        }
+        &_img{
+            object-fit: contain;
+            object-position: center;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
