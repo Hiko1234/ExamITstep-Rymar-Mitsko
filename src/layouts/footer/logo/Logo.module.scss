@@ -1,13 +1,9 @@
 @import "@/styles/variables.scss";
 
 .logo{
-
+    margin-right: 15px;
     &__img{
         object-fit: contain;
         object-position: center;
-        // @media(max-width: $mp5){
-        //     width: 151px;
-        //     height: 60px;
-        // }
     }
 }
