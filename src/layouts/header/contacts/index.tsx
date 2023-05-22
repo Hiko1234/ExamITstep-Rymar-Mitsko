@@ -14,9 +14,12 @@ const Contacts = () => {
         <>
             <div className={s.contacts}>
                 <div className={s.contacts__address}>
+                    <Link href="#" className={s.contacts__address_link}>
+                        <Image src={pointer} alt="Pointer" width={22} height={28} />
+                    </Link>
                     <Image className={s.contacts__address_img} src={pointer} alt="Pointer" width={22} height={28} />
                     <div className={s.contacts__address_data}>
-                        <p>82400, Львівська обл., м. Стрий,  вул. Ольги Басараб, буд. 15</p>
+                        <p><span>82400, Львівська обл.,</span> м. Стрий,  вул. Ольги Басараб, буд. 15</p>
                         <Link className={s.contacts__address_dataLink} href="/workschedule">графік роботи</Link>
                     </div>
                 </div>
