@@ -1,10 +1,28 @@
-html, body{
+@import "@/styles/variables.scss";
+
+html,
+body {
     min-height: 100%;
 }
 
-body{
+body {
     margin: 0;
     font-family: 'Ubuntu', sans-serif;
+}
+
+// scroll
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(92.95deg, $mainGreen 0.82%, $greenHover 96.47%);
+    border-radius: 40px;
+    box-shadow: 0 0 20px 3px $mainGreen;
 }
 
 // import fonts

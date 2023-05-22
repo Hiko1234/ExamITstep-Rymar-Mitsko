@@ -1,14 +1,12 @@
 import React from "react";
-// import link
-import Link from "next/link";
 // import styles
 import s from "./Header.module.scss";
 // import components
 import Container from "@/components/container";
 import Contacts from "./contacts";
-// import img
-import Image from "next/image";
-import logo from "../../assets/img/headerLogo.png"
+import Nav from "./navigation";
+import Burger from "./burger";
+import Logo from "./logo";
 
 const Header = () => {
   return (
@@ -17,11 +15,13 @@ const Header = () => {
         <div className={s.header__wrapper}>
           <Container>
             <div className={s.header__body}>
-              <Link href="/" className={s.header__logo}>
-                <Image className={s.header__logo_img} src={logo} alt="Logo" width={181} height={78} />
-              </Link>
+              <div className={s.header__logo}>
+                <Logo />
+              </div>
               <nav className={s.header__nav}>
                 <Contacts />
+                <Nav />
+                <Burger />
               </nav>
             </div>
           </Container>
