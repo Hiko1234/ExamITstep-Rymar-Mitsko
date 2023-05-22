@@ -119,6 +119,10 @@
         background-color: $burgerMenuBG;
         transition: 0.7s;
 
+        @media(max-width: $mp3) {
+            top: 113px;
+            height: calc(100vh - 113px);
+        }
         @media(max-width: $mp5) {
             top: 95px;
             height: calc(100vh - 95px);
