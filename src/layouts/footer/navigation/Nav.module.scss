@@ -1,0 +1,30 @@
+@import "@/styles/variables.scss";
+
+.footerListWrapper{
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.footerList{
+    list-style: none;
+    width: 194px;
+    padding: 0;
+    margin: 0;
+
+    &__li{
+        padding-bottom: 21px;
+
+        &_link{
+            text-decoration: none;
+            color: $white;
+            font-size: 16px;
+            font-weight: 500;
+            transition: 0.3s;
+
+            &:hover{
+                color: $pinkHover;
+            }
+        }
+    }
+}

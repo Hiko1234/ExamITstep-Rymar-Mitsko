@@ -1,102 +1,19 @@
+@import "@/styles/variables.scss";
+
 .footer {
-    padding: 20px 0;
+    padding: 35px 0 33px 0;
     background-color: #35C493;
 
-    &__copyright {
+    &__body{
         display: flex;
-        border-top: 1px solid rgba(255, 255, 255, 0.3);
-        margin-top: 15px;
-        padding-top: 10px;
-        justify-content: center;
-        align-items: center;
-
-        &_info {
-            display: flex;
-            width: fit-content;
-            color: #fff;
-            font-weight: 500;
-            font-size: 16px;
-
-            @media (max-width: 600px) {
-                justify-content: center;
-                text-align: center;
-            }
-        }
+        align-items: flex-start;
     }
-
-    &__block {
+    &__logo{
+        flex: 1 1 auto;
+    }
+    &__nav{
         display: flex;
-        flex-direction: row;
-        height: fit-content;
-        gap: 64px;
-
-        @media (max-width: 600px) {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 32px;
-        }
-
-        &_logo {
-            flex: 1 1 auto;
-            height: fit-content;
-            width: fit-content;
-        }
-
-        &_nav {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: row;
-            gap: 48px;
-
-            @media (max-width: 600px) {
-                justify-content: center;
-                align-items: center;
-                gap: 24px;
-            }
-
-            &_info {
-                display: flex;
-                flex-direction: column;
-                gap: 5px;
-
-                &_link {
-                    text-decoration: none;
-                    color: #fff;
-                    font-weight: 500;
-                    font-size: 16px;
-                    transition: 0.3s;
-
-                    &:hover {
-                        color: #555;
-                    }
-                }
-            }
-
-            &_social {
-                display: flex;
-                flex-direction: column;
-
-                @media (max-width: 600px) {
-                    justify-content: center;
-                    align-items: center;
-                    text-align: center;
-                }
-
-                &_link {
-                    display: flex;
-                    flex-direction: row;
-                    gap: 5px;
-
-                    &_element {
-                        transition: 0.3s;
-
-                        &:hover {
-                            transform: scale(115%);
-                        }
-                    }
-                }
-            }
-        }
+        gap: 87px;
+        align-items: flex-start;
     }
 }
