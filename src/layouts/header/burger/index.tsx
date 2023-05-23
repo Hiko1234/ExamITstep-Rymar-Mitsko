@@ -4,6 +4,14 @@ import s from "./Burger.module.scss"
 // import link
 import Link from 'next/link';
 
+const links = [
+    { text: 'Платні послуги', path: '/paid' },
+    { text: 'Анонімне звернення', path: '/request' },
+    { text: 'Лікарі', path: '/doctors' },
+    { text: 'Відділення', path: '/department' },
+    { text: 'Контакти', path: '/contacts' },
+]
+
 const Burger = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [hideOrShow, setHideOrShow] = useState<any>([]);
@@ -20,15 +28,6 @@ const Burger = () => {
             })
         }
     }
-
-
-    const links = [
-        { text: 'Реєстратура', path: '/registry' },
-        { text: 'Про лікарню', path: '/abouthehospital' },
-        { text: 'Пацієнту', path: '/patient' },
-        { text: 'Оцініть роботу', path: '/reviews' },
-        { text: 'Зворотній звʼязок', path: '/contacts' },
-    ]
 
     return (
         <>

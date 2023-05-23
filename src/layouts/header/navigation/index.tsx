@@ -5,11 +5,11 @@ import s from "./Nav.module.scss"
 import Link from 'next/link'
 
 const links = [
-    { text: 'Реєстратура', path: '/registry' },
-    { text: 'Про лікарню', path: '/abouthehospital' },
-    { text: 'Пацієнту', path: '/patient' },
-    { text: 'Оцініть роботу', path: '/reviews' },
-    { text: 'Зворотній звʼязок', path: '/contacts' },
+    { text: 'Платні послуги', path: '/paid' },
+    { text: 'Анонімне звернення', path: '/request' },
+    { text: 'Лікарі', path: '/doctors' },
+    { text: 'Відділення', path: '/department' },
+    { text: 'Контакти', path: '/contacts' },
 ]
 
 const Nav = () => {
