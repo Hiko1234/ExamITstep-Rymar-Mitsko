@@ -6,10 +6,10 @@ import Link from 'next/link';
 //Image
 import Image from 'next/image';
 //Partners
-import eLiku from '../../assets/img/eLiku.png';
-import askep from '../../assets/img/askep.png';
-import nszu from '../../assets/img/nszu.png';
-import moz from '../../assets/img/moz.png';
+import eLiku from '../../assets/img/partnership/eLiku.png';
+import askep from '../../assets/img/partnership/askep.png';
+import nszu from '../../assets/img/partnership/nszu.png';
+import moz from '../../assets/img/partnership/moz.png';
 
 const Partnership = () => {
     return (
