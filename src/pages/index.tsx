@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 // import styles
 import s from "@/styles/Home.module.scss";
 // import components
@@ -6,8 +6,13 @@ import Container from "@/components/container";
 import Partnership from "@/components/homePage/partnership";
 import HomeNav from "@/components/homePage/navigation";
 import Slider from "@/components/homePage/slider";
+import dataDoctors from "@/components/data/doctors";
+
+import Image from "next/image";
 
 export default function Home() {
+  const [data, setData] = useState(dataDoctors);
+
   return (
     <>
       <div className={s.home}>
