@@ -1,0 +1,64 @@
+@import "@/styles/variables.scss";
+
+.slider{
+    width: 789px;
+    height: 522px;
+    background-color: $mainGreen;
+    border-radius: 20px;
+    
+    @media(max-width: $mp3){
+        width: 85%;
+        margin: 0 auto;
+    }
+    @media(max-width: $mp4){
+        width: 100%;
+        height: 350px;
+    }
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    &__img{
+        width: 100%;
+        object-position: center;
+        border-radius: 20px;
+        @media(max-width: $mp5){
+            object-fit: cover;
+        }
+    }
+    &__info{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0 40px 36px 40px;
+        font-family: 'Roboto', sans-serif;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+        @media(max-width: $mp4){
+            padding: 0 20px 36px 20px;
+        }
+        &_date{
+            color: $green;
+            font-size: 18px;
+            font-weight: 700;
+            @media(max-width: $mp4){
+                font-size: 16px;
+            }
+            @media(max-width: $mp5){
+                font-size: 14px;
+            }
+        }
+        &_title{
+            color: $white;
+            font-size: 32px;
+            font-weight: 700;
+            @media(max-width: $mp4){
+                font-size: 26px;
+            }
+            @media(max-width: $mp5){
+                font-size: 22px;
+            }
+        }
+    }
+}

@@ -5,12 +5,12 @@ import s from "./HomeNav.module.scss"
 import Link from 'next/link'
 // import img
 import Image from 'next/image'
-import icon1 from "../../../assets/img/homePage/calendar.png"
-import icon2 from "../../../assets/img/homePage/star.png"
-import icon3 from "../../../assets/img/homePage/medicine.png"
-import icon4 from "../../../assets/img/homePage/purchases.png"
-import icon5 from "../../../assets/img/homePage/declaration.png"
-import icon6 from "../../../assets/img/homePage/workschedule.png"
+import icon1 from "../../../assets/img/homePage/nav/calendar.png"
+import icon2 from "../../../assets/img/homePage/nav/star.png"
+import icon3 from "../../../assets/img/homePage/nav/medicine.png"
+import icon4 from "../../../assets/img/homePage/nav/purchases.png"
+import icon5 from "../../../assets/img/homePage/nav/declaration.png"
+import icon6 from "../../../assets/img/homePage/nav/workschedule.png"
 
 const links = [
     { text: "Запис на прийом", img: icon1, path: "/"},
