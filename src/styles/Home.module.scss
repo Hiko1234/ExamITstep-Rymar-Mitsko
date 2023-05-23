@@ -1,0 +1,16 @@
+@import "@/styles/variables.scss";
+
+.home{
+    padding: 132px 0 85px 0;
+
+    &__navInfo{
+        background-color: $mainGreen;
+        padding: 43px 0 0 0;
+
+        &_inner{
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+    }
+}

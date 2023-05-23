@@ -3,12 +3,14 @@
 .nav{
     display: flex;
     justify-content: flex-end;
-    padding-top: 7px;
+    padding-top: 22px;
     @media(max-width: $mp3){
         display: none;
     }
     &__list{
         list-style-type: none;
+        margin: 0;
+        padding: 0;
         &_li{
             display: inline-block;
             padding-left: 30px;
@@ -16,6 +18,8 @@
         &_link{
             text-decoration: none;
             color: $black;
+            font-size: 14px;
+            font-weight: 700;
             transition: 0.3s;
 
             &:hover{
