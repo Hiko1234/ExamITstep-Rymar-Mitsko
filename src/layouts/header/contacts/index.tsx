@@ -5,8 +5,8 @@ import s from "./Contacts.module.scss";
 import Link from 'next/link';
 // import img 
 import Image from 'next/image';
-import pointer from "../../../assets/img/pointer.png"
-import phone from "../../../assets/img/phone.png"
+import pointer from "../../../assets/img/header/pointer.png"
+import phone from "../../../assets/img/header/phone.png"
 
 
 const Contacts = () => {

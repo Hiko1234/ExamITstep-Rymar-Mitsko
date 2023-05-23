@@ -5,8 +5,8 @@ import s from "./Social.module.scss"
 import Link from 'next/link'
 // import img
 import Image from 'next/image';
-import facebook from '../../../assets/img/facebook.png';
-import telegram from '../../../assets/img/telegram.png';
+import facebook from '../../../assets/img/footer/facebook.png';
+import telegram from '../../../assets/img/footer/telegram.png';
 
 const socialLinks = [
     { text: "Facebook", image: facebook, path: "/" },

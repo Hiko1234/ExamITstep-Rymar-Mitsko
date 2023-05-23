@@ -5,7 +5,7 @@ import s from "./Logo.module.scss"
 import Link from 'next/link'
 // import img
 import Image from "next/image";
-import logo from "../../../assets/img/headerLogo.png"
+import logo from "../../../assets/img/header/headerLogo.png"
 
 const Logo = () => {
     return (
