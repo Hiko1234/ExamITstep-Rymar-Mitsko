@@ -7,9 +7,6 @@ import slide1 from "../../../assets/img/homePage/slider/slide1.jpg"
 // import Swiper core and required modules
 import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
 // import link
 import Link from 'next/link';
 

@@ -11,7 +11,7 @@
         padding: 103px 0 85px 0;
     }
 
-    &__title{
+    &__title {
         text-align: center;
         font-size: 48px;
         font-weight: 700;
@@ -20,16 +20,129 @@
         margin: 23px 0 30px 0;
     }
 
-    
+    &__search {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+        padding-bottom: 9px;
 
-    &__cards{
+        @media (max-width: $mp4) {
+            flex-direction: column;
+        }
+    }
+
+    &__fieldset {
+        width: 286px;
+        border-radius: 12px;
+
+        @media (max-width: $mp4) {
+            width: 100%;
+        }
+
+        &_select {
+            width: 100%;
+            padding: 14px 10px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            color: #878787
+        }
+    }
+
+    &__form {
+        position: relative;
+        width: 100%;
+        border-radius: 12px;
+
+        &_img {
+            position: absolute;
+            top: 20%;
+            left: 20px;
+        }
+
+        &_input {
+            width: 100%;
+            padding: 12px 20px 12px 64px;
+            border: none;
+            border-radius: 12px;
+            font-size: 18px;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            color: $black;
+
+            &::placeholder {
+                font-size: 18px;
+                font-weight: 400;
+                font-family: 'Inter', sans-serif;
+                color: #878787;
+            }
+        }
+    }
+
+    &__declaration {
+        display: flex;
+        gap: 6px;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+        padding-bottom: 37px;
+
+        &_active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 13px;
+            height: 13px;
+            border-radius: 50%;
+            border: 1px solid $mainGreen;
+
+            span {
+                width: 7px;
+                height: 7px;
+                border-radius: 50%;
+                background-color: $mainGreen;
+            }
+        }
+
+        &_text {
+            font-size: 13px;
+            font-weight: 400;
+            color: $black;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__cards {
         display: flex;
         gap: 11px;
         align-items: flex-start;
         flex-wrap: wrap;
 
-        @media(max-width: $mp1){
+        @media(max-width: $mp1) {
             justify-content: space-around;
+        }
+    }
+
+    &__notFound {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_text {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            @media(max-width: $mp4){
+                font-size: 22px;
+            }
+        }
+        &_img{
+            margin-top: 30px;
         }
     }
 }

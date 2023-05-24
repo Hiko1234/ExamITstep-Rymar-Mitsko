@@ -1,5 +1,9 @@
 import "@/styles/globals.scss";
+// import swiper styles
+import 'swiper/css';
+// --------------------
 import type { AppProps } from "next/app";
+// import bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 // layouts
 import Layouts from "@/layouts";
