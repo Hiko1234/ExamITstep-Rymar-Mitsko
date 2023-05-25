@@ -131,18 +131,33 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
         &_text {
             text-align: center;
             font-size: 32px;
             font-weight: 600;
             margin: 0;
             padding: 0;
-            @media(max-width: $mp4){
+
+            @media(max-width: $mp4) {
                 font-size: 22px;
             }
         }
-        &_img{
+
+        &_img {
             margin-top: 30px;
         }
+    }
+}
+
+.singleDoctor {
+    padding: 132px 0 85px 0;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
     }
 }

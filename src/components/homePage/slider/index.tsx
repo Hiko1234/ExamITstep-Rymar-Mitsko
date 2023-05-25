@@ -1,23 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import styles
 import s from "./Slider.module.scss"
 // import img
 import Image from 'next/image';
-import slide1 from "../../../assets/img/homePage/slider/slide1.jpg"
 // import Swiper core and required modules
 import { Pagination, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import link
 import Link from 'next/link';
-
-const slides = [
-    { title: "Що треба знати про епілепсію і як надати першу допомогу", date: "16 лютого", image: slide1 },
-    { title: "Що треба знати про епілепсію і як надати першу допомогу", date: "16 лютого", image: slide1 },
-    { title: "Що треба знати про епілепсію і як надати першу допомогу", date: "16 лютого", image: slide1 },
-    { title: "Що треба знати про епілепсію і як надати першу допомогу", date: "16 лютого", image: slide1 },
-]
+// import data
+import dataNews from "@/components/data/news"
 
 const Slider = () => {
+    const [data, setData] = useState(dataNews);
+
     return (
         <>
             <Swiper
@@ -34,7 +30,7 @@ const Slider = () => {
                 pagination={{ clickable: true }}
                 className={s.slider}
             >
-                {slides.map((slide) => (
+                {data.map((slide) => (
                     <SwiperSlide className={s.slide}>
                         <div className={s.slide__wrapper}>
                             <Link className={s.slide__link} href="#">
