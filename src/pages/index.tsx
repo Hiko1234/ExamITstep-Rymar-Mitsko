@@ -4,6 +4,7 @@ import s from "@/styles/Home.module.scss";
 // import components
 import Container from "@/components/container";
 import Partnership from "@/components/homePage/partnership";
+import Collective from "@/components/homePage/collective";
 import HomeNav from "@/components/homePage/navigation";
 import Slider from "@/components/homePage/slider";
 import dataDoctors from "@/components/data/doctors";
@@ -21,6 +22,22 @@ export default function Home() {
             <div className={s.home__navInfo_inner}>
               <HomeNav />
               <Slider />
+            </div>
+          </Container>
+        </div>
+
+        <div className={s.home__collective}>
+          <Container>
+            <div className={s.home__collective_inner}>
+              <Collective/>
+            </div>
+          </Container>
+        </div>
+
+        <div className={s.home__partnership}>
+          <Container>
+            <div className={s.home__partnership_inner}>
+              <Partnership />
             </div>
           </Container>
         </div>

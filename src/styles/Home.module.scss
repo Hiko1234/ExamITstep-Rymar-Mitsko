@@ -1,3 +1,4 @@
+//variables
 @import "@/styles/variables.scss";
 
 .home{
@@ -21,5 +22,14 @@
                 flex-direction: column;
             }
         }
+    }
+
+    &__collective {
+        background-color: $colorBG;
+        padding: 35px 0 64px 0;
+    }
+
+    &__partnership {
+        padding: 25px;
     }
 }
