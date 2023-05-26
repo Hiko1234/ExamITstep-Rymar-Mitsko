@@ -4,7 +4,8 @@ import s from "./Contacts.module.scss"
 // import components
 import Container from '@/components/container'
 import ContactsData from '@/components/contactsPage/contactsData'
-import Map from '@/components/contactsPage/Map'
+import Map from '@/components/contactsPage/map'
+import OtherContacts from '@/components/contactsPage/otherСontacts'
 
 const Contacts = () => {
   return (
@@ -14,6 +15,7 @@ const Contacts = () => {
             <Container>
                 <div className={s.contacts__contactsData}><ContactsData /></div>
                 <div className={s.contacts__map}><Map /></div>
+                <div className={s.contacts__otherContacts}><OtherContacts /></div>
             </Container>
         </div>
     </>
