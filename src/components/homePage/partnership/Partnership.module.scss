@@ -1,3 +1,6 @@
+//variables
+@import '../../../styles/variables.scss';
+
 .partnershipBlock {
 
     &__title {
@@ -19,7 +22,7 @@
         justify-content: space-between;
         align-items: center;
 
-        @media (max-width: 600px) {
+        @media (max-width: $mp5) {
             justify-content: center;
             gap: 32px;
             flex-direction: column;
