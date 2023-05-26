@@ -7,12 +7,8 @@ import Partnership from "@/components/homePage/partnership";
 import Collective from "@/components/homePage/collective";
 import HomeNav from "@/components/homePage/navigation";
 import Slider from "@/components/homePage/slider";
-import dataDoctors from "@/components/data/doctors";
-
-import Image from "next/image";
 
 export default function Home() {
-  const [data, setData] = useState(dataDoctors);
 
   return (
     <>
