@@ -1,11 +1,10 @@
 import React from 'react';
-//styles
+// import styles
 import s from './Partnership.module.scss';
-//Link
+// import link
 import Link from 'next/link';
-//Image
+// import img
 import Image from 'next/image';
-//Partners
 import eLiku from '../../../assets/img/partnership/eLiku.png';
 import askep from '../../../assets/img/partnership/askep.png';
 import nszu from '../../../assets/img/partnership/nszu.png';
@@ -16,7 +15,7 @@ const Partnership = () => {
         <>
             <div className={s.partnershipBlock}>
                 <div className={s.partnershipBlock__title}>
-                    <h4 className={s.partnershipBlock__title_text}>
+                    <h4>
                         В ПАРТНЕРСТВІ З
                     </h4>
                 </div>

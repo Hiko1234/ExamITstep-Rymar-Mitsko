@@ -1,52 +1,94 @@
-//variables
-@import '../../../styles/variables.scss';
+@import "@/styles/variables.scss";
 
 .collective {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    @media(max-width: $mp4){
+        flex-direction: column;
+        gap: 30px;
+    }
+    &__data {
+        width: 397px;
+        @media(max-width: $mp4){
+            text-align: center;
+            width: 100%;
+        }
 
-    &__body {
-
-        &_info {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-
-            &_title {
-                color: $greenText;
-                font-weight: 700;
-                font-size: 64px;
-                line-height: 74px;
+        &_title {
+            padding: 0;
+            margin: 0;
+            font-size: 64px;
+            font-weight: 700;
+            color: $greenText;
+            @media(max-width: $mp5){
+                font-size: 40px;
             }
+        }
 
-            &_text {
-                color: $darkText;
-                font-weight: 400;
-                font-size: 24px;
-                line-height: 28px;
+        &_subtext {
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+            color: $darkText;
+            padding-bottom: 38px;
+            @media(max-width: $mp5){
+                font-size: 18px;
             }
+        }
 
-            &_btn {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: 180px;
-                height: 46px;
-                background-color: $mainPink;
-                border: 0;
-                border-radius: 10px;
-                padding-bottom: 5px;
-                transition: 0.3s;
+        &_link {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            color: $white;
+            background-color: $mainPink;
+            padding: 16px 15px;
+            border-radius: 8px;
+            transition: 0.3s;
 
-                &:hover {
-                    background-color: $pinkHover;
+            &:hover {
+                background-color: $pinkHover;
+                color: $white;
+            }
+        }
+    }
+
+    &__doctorsImg{
+        display: flex;
+        gap: 50px;
+        align-items: flex-start;
+        @media(max-width: $mp3){
+            gap: 22px;
+        }
+        @media(max-width: $mp5){
+            gap: 15px;
+        }
+        &_box{
+            &:nth-child(2){
+                margin-top: 100px;
+                @media(max-width: $mp4){
+                    margin-top: 50px;
                 }
-
-                &_text {
-                    color: $white;
-                    font-weight: 400;
-                    font-size: 20px;
-                    line-height: 14px;
-                    margin: 0px;
-                }
+            }
+        }
+        &_img{
+            display: block;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 12px;
+            margin-bottom: 22px;
+            @media(max-width: $mp5){
+                width: 90px;
+                height: 90px;
+                margin-bottom: 15px;
+            }
+            &:last-child{
+                margin-bottom: 0;
             }
         }
     }
