@@ -1,8 +1,8 @@
 @import "@/styles/variables.scss";
 
 .homeNav{
-   
-    @media(max-width: $mp1){
+    width: 396px;
+    @media(max-width: $mp3){
         order: 2;
         width: 100%;
     }
@@ -19,12 +19,9 @@
         color: $white;
         transition: 0.3s;
 
-        @media(max-width: $mp1){
-            width: 80%;
-            margin: 0 auto;
-        }
         @media(max-width: $mp3){
             width: 90%;
+            margin: 0 auto;
         }
         @media(max-width: $mp4){
             width: 100%;
