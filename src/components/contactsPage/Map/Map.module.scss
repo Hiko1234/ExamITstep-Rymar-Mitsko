@@ -1,0 +1,14 @@
+@import "@/styles/variables.scss";
+
+.map{
+    width: 100%;
+    height: 422px;
+    @media (max-width: $mp5){
+        height: 322px;
+    }
+
+    &__iframe{
+        width: 100%;
+        height: 100%;
+    }
+}

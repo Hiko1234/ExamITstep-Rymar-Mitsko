@@ -1,0 +1,25 @@
+@import "@/styles/variables.scss";
+
+.contacts{
+    padding: 132px 0 85px 0;
+    font-family: 'Inter', sans-serif;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }
+
+    &__title{
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+        color: $black;
+        margin: 23px 0 50px 0;
+    }
+    &__map{
+        padding: 85px 0 111px 0;
+    }
+}
