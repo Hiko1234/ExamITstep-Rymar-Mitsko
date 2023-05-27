@@ -23,6 +23,7 @@ export default function Home() {
         </div>
 
         <div className={s.home__collective}>
+          <div className={s.home__collective_bg}></div>
           <Container>
             <Collective />
           </Container>

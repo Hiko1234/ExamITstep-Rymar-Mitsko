@@ -26,5 +26,22 @@
 
     &__collective {
         padding: 96px 0 55px 0;
+        position: relative;
+
+        &_bg{
+            width: 100%;
+            height: 473px;
+            background-color: $collectiveBG;
+            position: absolute;
+            left: 0;
+            bottom: 70px;
+            z-index: -1;
+            @media (max-width: $mp4){
+                height: 700px;
+            }
+            @media (max-width: $mp5){
+                height: 570px;
+            }
+        }
     }
 }
