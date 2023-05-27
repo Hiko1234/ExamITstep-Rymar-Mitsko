@@ -12,6 +12,10 @@
         padding: 103px 0 85px 0;
     }
 
+    &__wrapper{
+        padding-top: 46px;
+    }
+
     &__navBar {
         display: flex;
         flex-direction: column;
@@ -25,9 +29,12 @@
                 font-size: 42px;
                 line-height: 51px;
 
+                @media (max-width: $mp4) {
+                    font-size: 32px;
+                    line-height: 27px;
+                }
                 @media (max-width: $mp5) {
                     font-size: 26px;
-                    line-height: 27px;
                 }
             }
         }
