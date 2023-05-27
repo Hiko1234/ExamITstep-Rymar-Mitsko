@@ -15,8 +15,8 @@ const Contacts = () => {
             <Container>
                 <div className={s.contacts__contactsData}><ContactsData /></div>
                 <div className={s.contacts__map}><Map /></div>
-                <div className={s.contacts__otherContacts}><OtherContacts /></div>
             </Container>
+            <div className={s.contacts__otherContacts}><Container><OtherContacts /></Container></div>
         </div>
     </>
   )
