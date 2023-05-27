@@ -12,27 +12,33 @@
         padding: 103px 0 85px 0;
     }
 
+    &__wrapper {
+        padding-top: 33px;
+    }
+
+    &__title {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        text-align: center;
+    }
+
+    &__subTitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+    }
+
     &__info {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        &_title {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 48px;
-            line-height: 58px;
-        }
-
-        &_subTitle {
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 22px;
-            text-align: center;
-        }
+        margin-bottom: 50px;
 
         &_table {
             width: 100%;
@@ -46,6 +52,10 @@
                 font-weight: 700;
                 font-size: 24px;
                 line-height: 28px;
+
+                @media(max-width: $mp4) {
+                    font-size: 18px;
+                }
             }
 
             &_info {
