@@ -4,6 +4,14 @@
 .rateWork {
     padding: 132px 0 85px 0;
 
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }
+
     &__navBar {
         display: flex;
         flex-direction: column;
