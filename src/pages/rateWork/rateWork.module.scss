@@ -1,0 +1,65 @@
+//variables
+@import '../../styles/variables.scss';
+
+.rateWork {
+    padding: 132px 0 85px 0;
+
+    &__navBar {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        &_title {
+            &_text {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 42px;
+                line-height: 51px;
+
+                @media (max-width: $mp5) {
+                    font-size: 26px;
+                    line-height: 27px;
+                }
+            }
+        }
+
+        &_link {
+            text-decoration: none;
+
+            &_info {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $rateGreen;
+                border-radius: 16px;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: $rateHover;
+                }
+
+                &_text {
+                    margin: 0;
+                    padding: 25px;
+                    color: $white;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 27px;
+
+                    @media (max-width: $mp5) {
+                        font-size: 18px;
+                        line-height: 17px;
+                    }
+                }
+
+                &_img {
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+}

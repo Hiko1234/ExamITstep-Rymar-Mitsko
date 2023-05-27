@@ -14,7 +14,7 @@ import icon6 from "../../../assets/img/homePage/nav/workschedule.png"
 
 const links = [
     { text: "Запис на прийом", img: icon1, path: "/"},
-    { text: "Оцінити якість наданих послуг", img: icon2, path: "/"},
+    { text: "Оцінити якість наданих послуг", img: icon2, path: "/rateWork"},
     { text: "Доступні ліки", img: icon3, path: "/"},
     { text: "Публічні закупівлі", img: icon4, path: "/"},
     { text: "Декларація з лікарем", img: icon5, path: "/"},
