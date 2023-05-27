@@ -8,6 +8,9 @@
 import doctor1 from "./dataImg/doctor1.jpg";
 import doctor2 from "./dataImg/doctor2.jpg";
 import doctor3 from "./dataImg/doctor3.jpg";
+// import departament
+import departament1 from "./dataImg/Departament/star.png"
+import departament2 from "./dataImg/Departament/hospital.png"
 
 const dataDoctors = [
     {
@@ -21,7 +24,8 @@ const dataDoctors = [
         experience: 20,
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
-        image: doctor1
+        image: doctor1,
+        departamentImg: departament1
     },
     {
         id: 2,
@@ -34,7 +38,8 @@ const dataDoctors = [
         experience: 32,
         office: 417,
         department: "Поліклінічне відділення",
-        image: doctor2
+        image: doctor2,
+        departamentImg: departament2
     },
     {
         id: 3,
@@ -47,7 +52,8 @@ const dataDoctors = [
         experience: 19,
         office: 414,
         department: "Поліклінічне відділення",
-        image: doctor3
+        image: doctor3,
+        departamentImg: departament2
     },
     {
         id: 4,
@@ -60,7 +66,8 @@ const dataDoctors = [
         experience: 20,
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
-        image: doctor1
+        image: doctor1,
+        departamentImg: departament1
     },
     {
         id: 5,
@@ -73,7 +80,8 @@ const dataDoctors = [
         experience: 32,
         office: 417,
         department: "Поліклінічне відділення",
-        image: doctor2
+        image: doctor2,
+        departamentImg: departament2
     },
     {
         id: 6,
@@ -86,7 +94,8 @@ const dataDoctors = [
         experience: 19,
         office: 414,
         department: "Поліклінічне відділення",
-        image: doctor3
+        image: doctor3,
+        departamentImg: departament2
     },
     {
         id: 7,
@@ -99,7 +108,8 @@ const dataDoctors = [
         experience: 20,
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
-        image: doctor1
+        image: doctor1,
+        departamentImg: departament1
     },
     {
         id: 8,
@@ -112,7 +122,8 @@ const dataDoctors = [
         experience: 32,
         office: 417,
         department: "Поліклінічне відділення",
-        image: doctor2
+        image: doctor2,
+        departamentImg: departament2
     },
     {
         id: 9,
@@ -125,7 +136,8 @@ const dataDoctors = [
         experience: 19,
         office: 414,
         department: "Поліклінічне відділення",
-        image: doctor3
+        image: doctor3,
+        departamentImg: departament2
     },
     {
         id: 10,
@@ -138,7 +150,8 @@ const dataDoctors = [
         experience: 20,
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
-        image: doctor1
+        image: doctor1,
+        departamentImg: departament1
     },
     {
         id: 11,
@@ -151,7 +164,8 @@ const dataDoctors = [
         experience: 32,
         office: 417,
         department: "Поліклінічне відділення",
-        image: doctor2
+        image: doctor2,
+        departamentImg: departament2
     },
     {
         id: 12,
@@ -164,7 +178,8 @@ const dataDoctors = [
         experience: 19,
         office: 414,
         department: "Поліклінічне відділення",
-        image: doctor3
+        image: doctor3,
+        departamentImg: departament2
     },
 ];
 

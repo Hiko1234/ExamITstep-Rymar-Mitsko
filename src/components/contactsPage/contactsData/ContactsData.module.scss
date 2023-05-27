@@ -2,25 +2,25 @@
 
 .contactsData{
     display: flex;
-    gap: 15px;
-    justify-content: space-between;
+    gap: 59px;
     align-items: flex-start;
     font-family: 'Inter', sans-serif;
-    @media(max-width: $mp4){
+    @media(max-width: $mp1){
+        gap: 15px;
+        justify-content: space-between;
+    }
+    @media(max-width: $mp3){
         flex-wrap: wrap;
-        gap: 0;
-        row-gap: 15px;
+        gap: 15px;
+        justify-content: space-around;
     }
 
     &__info{
-        width: 24%;
-        @media(max-width: $mp4){
-            width: 50%;
-        }
-        @media(max-width: $mp5){
-            width: 100%;
-            text-align: center;
-        }
+        width: 250px;
+        height: 207px;
+        padding: 20px 25px;
+        border-radius: 12px;
+        background-color: $departamentBG;
 
         &_title{
             font-size: 24px;
