@@ -21,14 +21,18 @@ export default function Home() {
             </div>
           </Container>
         </div>
-        <Container>
-          <div className={s.home__collective}>
+
+        <div className={s.home__collective}>
+          <Container>
             <Collective />
-          </div>
-          <div className={s.home__partnership}>
+          </Container>
+        </div>
+
+        <div className={s.home__partnership}>
+          <Container>
             <Partnership />
-          </div>
-        </Container>
+          </Container>
+        </div>
       </div>
     </>
   );
