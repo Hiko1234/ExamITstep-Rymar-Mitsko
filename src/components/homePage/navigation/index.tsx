@@ -20,7 +20,7 @@ const links = [
     // { text: "Декларація з лікарем", img: icon5, path: "/" },
     { text: "Оцінити якість наданих послуг", img: icon2, path: "/rateWork" },
     { text: "Доступні ліки", img: icon3, path: "https://moz.gov.ua/dostupni-liki" },
-    { text: "Благодійність", img: icon7, path: "/"},
+    { text: "Благодійність", img: icon7, path: "/charity"},
     { text: "Графік роботи поліклініки", img: icon6, path: "/" },
 ]
 

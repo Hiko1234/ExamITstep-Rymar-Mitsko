@@ -1,0 +1,55 @@
+//variableds
+@import '../../styles/variables.scss';
+
+.charity {
+    padding: 132px 0 85px 0;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }
+
+    &__wrapper {
+        padding-top: 33px;
+    }
+
+    &__title {
+        width: 100%;
+        border-bottom: 1px solid $rateGreen;
+        text-align: center;
+
+        &_text {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+
+    &__details {
+        padding-top: 40px;
+
+        &_title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+        }
+
+        &_info {
+            padding-top: 15px;
+            gap: 10px;
+
+            &_title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+            }
+
+            &_text {
+                line-height: 33px;
+            }
+        }
+    }
+}
