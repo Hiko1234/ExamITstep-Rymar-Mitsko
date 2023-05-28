@@ -10,4 +10,17 @@
     @media(max-width: $mp5) {
         padding: 103px 0 85px 0;
     }
+
+    &__wrapper{
+        padding-top: 60px;
+    }
+    &__title{
+        font-family: 'Inter', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: $black;
+    }
+    &__request{
+        padding-top: 28px;
+    }
 }
