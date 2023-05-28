@@ -1,0 +1,31 @@
+@import "@/styles/variables.scss";
+
+.department {
+    padding: 132px 0 85px 0;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }   
+
+    &__wrapper{
+        padding-top: 43px;
+    }
+
+    &__title{
+        font-size: 42px;
+        font-weight: 600;
+        color: $black;
+    }
+
+    &__links{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 26px;
+    }
+}

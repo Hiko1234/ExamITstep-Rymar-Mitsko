@@ -1,0 +1,54 @@
+@import "@/styles/variables.scss";
+
+.cardDepartment{
+    width: 580px;
+    height: 178px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    gap: 22px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: $darkDepartmentText;
+    transition: 0.3s;
+    @media(max-width: $mp1){
+        width: 100%;
+    }
+    &:hover{
+        color: $mainGreen;
+    }
+
+    &__imgWrapper{
+        width: 190px;
+        height: 178px;
+        border-radius: 12px;
+        background-color: $departamentBG;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img{
+        object-fit: contain;
+        object-position: center;
+    }
+
+    &__data{
+        font-size: 20px;
+        font-family: 600;
+        width: 333px;
+        @media(max-width: $mp1){
+            width: 200px;
+        }
+        &_title{
+            padding: 16px 0;
+            @media(max-width: $mp1){
+                padding: 0 0 5px 0;
+            }
+        }
+        &_contacts{
+            display: flex;
+            align-items: center;
+            gap: 9px;
+        }
+    }
+}
