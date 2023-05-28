@@ -20,7 +20,7 @@ const Contacts = () => {
                     <Image className={s.contacts__address_img} src={pointer} alt="Pointer" width={22} height={28} />
                     <div className={s.contacts__address_data}>
                         <p><span>82400, Львівська обл.,</span> м. Стрий,  вул. Ольги Басараб, буд. 15</p>
-                        <Link className={s.contacts__address_dataLink} href="/workschedule">графік роботи</Link>
+                        <Link className={s.contacts__address_dataLink} href="/workSchedule">графік роботи</Link>
                     </div>
                 </div>
                 <Link href="tel:(03245) 7-03-02" className={s.contacts__numbers}>

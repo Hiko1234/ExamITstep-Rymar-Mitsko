@@ -1,0 +1,68 @@
+//variables
+@import '../../styles/variables.scss';
+
+.workSchedule {
+    padding: 132px 0 85px 0;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }
+
+    &__wrapper {
+        padding-top: 33px;
+    }
+
+    &__title {
+        width: 100%;
+        text-align: center;
+
+        &_text,
+        &_subTitle {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            line-height: 44px;
+        }
+    }
+
+    &__info {
+
+        table {
+            width: 100%;
+
+            thead {
+                background-color: $rateGreen;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+
+                td {
+                    text-align: center;
+                }
+
+                tr {
+                    color: $white;
+                }
+            }
+
+            tbody {
+                background-color: #EFFFF7;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+
+                td {
+                    text-align: center;
+                }
+
+                tr {
+                    border-bottom: 1px solid $rateGreen;
+                }
+            }
+        }
+    }
+}
