@@ -1,0 +1,45 @@
+@import "@/styles/variables.scss";
+
+.news {
+    padding: 132px 0 85px 0;
+
+    @media(max-width: $mp3) {
+        padding: 121px 0 85px 0;
+    }
+
+    @media(max-width: $mp5) {
+        padding: 103px 0 85px 0;
+    }
+
+    &__wrapper{
+        padding-top: 43px;
+        text-align: center;
+    }
+    &__img{
+        @media(max-width: $mp5){
+            width: 300px;
+            height: 150px;
+        }
+    }
+    &__errorTitle{
+        font-size: 32px;
+        font-weight: 700;
+        color: $black;
+        padding-bottom: 30px;
+    }
+    &__link{
+        padding: 15px 30px;
+        background-color: $mainGreen;
+        font-size: 20px;
+        font-weight: 700;
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        border-radius: 12px;
+        transition: 0.3s;
+        &:hover{
+            background-color: $greenHover;
+            color: $white;
+        }
+    }
+}
