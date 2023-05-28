@@ -3,14 +3,20 @@ import React from 'react'
 import s from "./Request.module.scss"
 // import components
 import Container from '@/components/container'
+import RequestItem from '@/components/request'
 
 const Request = () => {
     return (
         <>
             <div className={s.request}>
-                <Container>
-                    <h1>Request</h1>
-                </Container>
+                <div className={s.request__wrapper}>
+                    <Container>
+                        <h1 className={s.request__title}>Анонімне звернення</h1>
+                        <div className={s.request__form}>
+                            <RequestItem />
+                        </div>
+                    </Container>
+                </div>
             </div>
         </>
     )
