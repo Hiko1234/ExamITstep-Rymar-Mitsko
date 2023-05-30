@@ -5,9 +5,9 @@ import s from './Collective.module.scss';
 import Link from 'next/link';
 // import img
 import Image from 'next/image';
-import doctor1 from "../../data/doctors/dataImg/doctor1.jpg"
-import doctor2 from "../../data/doctors/dataImg/doctor2.jpg"
-import doctor3 from "../../data/doctors/dataImg/doctor3.jpg"
+import doctor1 from "../../../data/doctors/dataImg/doctor1.jpg"
+import doctor2 from "../../../data/doctors/dataImg/doctor2.jpg"
+import doctor3 from "../../../data/doctors/dataImg/doctor3.jpg"
 
 const Collective = () => {
     return (

@@ -3,7 +3,7 @@ import React, { useState, useMemo } from 'react'
 import s from "./Doctors.module.scss"
 // import components
 import Container from '@/components/container'
-import dataDoctors from "@/components/data/doctors"
+import dataDoctors from "@/data/doctors"
 import CardDoctors from '@/components/card/cardDoctors'
 // import img
 import Image from 'next/image'

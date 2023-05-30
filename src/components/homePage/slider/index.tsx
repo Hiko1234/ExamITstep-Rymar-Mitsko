@@ -9,7 +9,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // import link
 import Link from 'next/link';
 // import data
-import dataNews from "@/components/data/news"
+import dataNews from "@/data/news"
 
 const Slider = () => {
     const [data, setData] = useState(dataNews);

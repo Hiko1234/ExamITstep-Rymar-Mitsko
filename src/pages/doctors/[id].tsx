@@ -5,7 +5,7 @@ import s from "./Doctors.module.scss"
 import Image from 'next/image';
 // import components
 import Container from '@/components/container';
-import dataDoctors from "@/components/data/doctors"
+import dataDoctors from "@/data/doctors"
 import CardDoctors from '@/components/card/cardDoctors'
 // import router
 import { useRouter } from "next/router";
