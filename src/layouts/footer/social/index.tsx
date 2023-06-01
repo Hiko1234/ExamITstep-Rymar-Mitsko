@@ -10,7 +10,7 @@ import telegram from '../../../assets/img/footer/telegram.png';
 
 const socialLinks = [
     { text: "Facebook", image: facebook, path: "/" },
-    { text: "Telegram", image: telegram, path: "/" },
+    { text: "Telegram", image: telegram, path: "https://t.me/strij_central_regional_hospital" },
 ]
 
 const Social = () => {

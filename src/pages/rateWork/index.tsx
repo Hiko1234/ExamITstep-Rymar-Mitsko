@@ -12,8 +12,8 @@ import rightArrow from '../../assets/img/rateWorkPage/rightArrow.png';
 
 const links = [
     { text: "Оцініть Ваш візит в нашу лікарню", path: "/ocinit-vash-visit", },
-    { text: "Як Ви оцінюєте чистоту в нашому закладі?", path: "/ocinit-vash-visit", },
-    { text: "Чи був ввічливим з Вами персонал?", path: "/ocinit-vash-visit", },
+    { text: "Як Ви оцінюєте чистоту в нашому закладі?", path: "/ocinit-chistotu", },
+    { text: "Чи був ввічливим з Вами персонал?", path: "/vichluvist-personaly", },
 ];
 
 const rateWork = () => {
@@ -29,7 +29,7 @@ const rateWork = () => {
                                 </h1>
                             </div>
                             {links.map((link) => (
-                                <Link className={s.rateWork__navBar_link} href={link.path}>
+                                <Link className={s.rateWork__navBar_link} href={`/rateWork${link.path}`}>
                                     <div className={s.rateWork__navBar_link_info}>
                                         <p className={s.rateWork__navBar_link_info_text}>
                                             {link.text}

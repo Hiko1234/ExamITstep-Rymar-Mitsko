@@ -19,6 +19,10 @@
         font-size: 48px;
         font-weight: 700;
         color: $black;
+
+        @media(max-width: $mp4){
+            font-size: 32px;
+        }
     }
     &__request{
         padding-top: 28px;
