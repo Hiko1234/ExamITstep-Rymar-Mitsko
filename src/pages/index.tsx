@@ -7,6 +7,7 @@ import Partnership from "@/components/homePage/partnership";
 import Collective from "@/components/homePage/collective";
 import HomeNav from "@/components/homePage/navigation";
 import Slider from "@/components/homePage/slider";
+import NewsComponent from "@/components/news";
 
 export default function Home() {
 
@@ -19,6 +20,12 @@ export default function Home() {
               <HomeNav />
               <Slider />
             </div>
+          </Container>
+        </div>
+
+        <div className={s.home__news}>
+          <Container>
+            <NewsComponent />
           </Container>
         </div>
 
