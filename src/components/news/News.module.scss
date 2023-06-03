@@ -25,7 +25,11 @@
         }
 
         &_decor {
-            margin: 0px;
+            width: 957px;
+            height: 100px;
+            background-image: url("../../assets/img/homePage/news/puls.png");
+            background-repeat: no-repeat;
+            background-position: right;
         }
     }
 
@@ -33,8 +37,13 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 15px;
         padding-bottom: 35px;
         border-bottom: 2px solid $mainPink;
+
+        @media(max-width: $mp1){
+            flex-direction: column;
+        }
 
         &_info {
             display: flex;
@@ -46,8 +55,11 @@
     &__link {
         padding-top: 35px;
         display: flex;
+        gap: 15px;
         justify-content: center;
         align-items: center;
+
+        
 
         &_info {
             text-decoration: none;

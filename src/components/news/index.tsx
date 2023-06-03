@@ -19,12 +19,7 @@ const NewsComponent = () => {
                         ОСТАННІ НОВИНИ
                     </h2>
 
-                    <div className={s.news__title_decor}>
-                        <Image
-                            src={puls}
-                            alt="декор пульс"
-                        />
-                    </div>
+                    <div className={s.news__title_decor}></div>
                 </div>
 
                 <div className={s.news__posts}>
@@ -80,8 +75,8 @@ const NewsComponent = () => {
                                 fontSize: '22px',
                                 lineHeight: '25px'
                             }}>
-                                COVID-сертифікат для<br/> 
-                                щеплених бустерною<br/> 
+                                COVID-сертифікат для<br />
+                                щеплених бустерною<br />
                                 дозою тепер у Дія
                             </p>
                         </div>
