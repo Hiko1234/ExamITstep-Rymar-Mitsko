@@ -9,12 +9,12 @@ import CardDoctors from '@/components/card/cardDoctors'
 // import data
 import dataDoctors from '@/data/doctors'
 // import img
-import department12 from "../../../assets/img/departmentPage/department12.png"
-import managerDepartment from "../../../data/doctors/dataImg/doctor3.jpg"
+import department11 from "../../../assets/img/departmentPage/department11.png"
+import managerDepartment from "../../../data/doctors/dataImg/doctor1.jpg"
 
 // title page 
 const title = [
-  { img: department12, title: "Поліклінічне відділення", number: "7-05-62" },
+  { img: department11, title: "Відділення  невідкладної  (екстреної)  медичної  допомоги", number: "7-05-62" },
 ];
 
 // tabs page
@@ -28,21 +28,21 @@ const tabs = [
 const info = [
   {
     image: managerDepartment,
-    name: "Лудин Василь Іванович",
-    manager: "завідувач хірургічного відділення",
-    specialty: "Лікар - хірург (вища категорія)",
+    name: "Мицько Мар'яна Степанівна",
+    manager: "завідувач відділення",
+    specialty: "Лікар - невропатолог",
     info: "Поліклінічне  відділення  КНП  «Стрийська  ЦРЛ»  надає  амбулаторну  спеціалізовану  медичну  допомогу  дорослому  населенню  Стрийської  ОТГ  м.Стрий,  сільське  населення,     Моршинської  ОТГ,  Грабовецько - Дулібської  ОТГ, сусідніх  об’єднаних  територіальних  громад  населення,  а  також  кожному    громадянину  України  що звернеться  за  медичною  допомогою.   У  2020 році  КНП  «Стрийська  ЦРЛ»,  отримала  статус  лікарні  інтенсивного  лікування,    тому  територія  та  чисельність  населення  значно  збільшилась.  Потужність  поліклінічного  відділення  КНП  «Стрийська  ЦРЛ»  становить  600  відвідувань у  зміну.   Поліклінічне  відділення  працює у  дві  зміни.Приміщення  розташоване  на  четвертому  поверсі  поліклінічного  корпусу.Поліклінічне  відділення  КНП  «Стрийська  ЦРЛ»  надає  такі  медичні  послуги: Консультація  пацієнтів; Проведення  діагностики  захворювань; Амбулаторне  лікування  пацієнтів; Спостереження  за  пацієнтами  в  динаміці; Визначення  показань  та  направлення  пацієнтів  на  стаціонарне  лікування; Лікувально- профілактична  робота.",
   },
 ];
 
-const PoliklinichneViddilennya = () => {
+const ViddilennyaNevidkladnoyiEkstrenoyiMedychnoyiDopomogy = () => {
   const [toggleState, setToggleState] = useState(1);
   const [data, setData] = useState(dataDoctors);
   const [doctorsDepartment, setDoctorsDepartment] = useState(getDoctorsByDepartment(data));
 
   function getDoctorsByDepartment(data: any) {
     const targetDoctors = data.filter((el: any) => {
-      if (el.department == "Поліклінічне відділення") {
+      if (el.department == "Відділення  невідкладної  (екстреної)  медичної  допомоги") {
         return el
       }
     })
@@ -84,4 +84,4 @@ const PoliklinichneViddilennya = () => {
   )
 }
 
-export default PoliklinichneViddilennya
+export default ViddilennyaNevidkladnoyiEkstrenoyiMedychnoyiDopomogy 

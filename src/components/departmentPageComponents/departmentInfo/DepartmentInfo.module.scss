@@ -1,0 +1,58 @@
+@import "@/styles/variables.scss";
+
+.departmentInfo {
+
+    &__personManager {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        padding-bottom: 37px;
+        border-bottom: 1px solid $mainPink;
+
+        @media(max-width: $mp5){
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+
+    &__img {
+        object-fit: cover;
+        object-position: center;
+        border-radius: 12px;
+    }
+
+    &__data {
+
+        &_name {
+            margin: 0;
+            padding: 0;
+            font-size: 28px;
+            font-weight: 700;
+            color: $black;
+        }
+
+        &_manager {
+            font-size: 16px;
+            font-weight: 400;
+            color: $black;
+            margin: 0;
+            padding: 11px 0;
+        }
+
+        &_specialty {
+            font-size: 14px;
+            font-weight: 700;
+            color: $mainGreen;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__info{
+        padding-top: 46px;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 400;
+        color: $black;
+    }
+}

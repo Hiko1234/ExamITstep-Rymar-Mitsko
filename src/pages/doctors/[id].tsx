@@ -43,6 +43,7 @@ const SingleDoctors = () => {
 
   useEffect(() => {
     getObjectById(id);
+    getDoctorBySpecialty(doctor);
   }, []);
 
   return (
