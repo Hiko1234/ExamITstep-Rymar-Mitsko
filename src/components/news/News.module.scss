@@ -9,17 +9,17 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 7px;
+        gap: 5px;
 
         &_text {
             padding-top: 15px;
             margin: 0px;
-            width: fit-content;
+            width: 221px;
             height: fit-content;
             font-family: 'Ubuntu';
             font-style: normal;
             font-weight: 700;
-            font-size: 23px;
+            font-size: 20px;
             line-height: 28px;
             color: $mainPink;
         }
@@ -48,7 +48,49 @@
         &_info {
             display: flex;
             flex-direction: row;
+            transition: 0.3s;
             gap: 25px;
+
+            @media (max-width: $mp5) {
+                gap: 15px;
+            }
+
+            &_img {
+                transition: 0.3s;
+
+                @media (max-width: $mp5) {
+                    width: 140px;
+                    height: 140px;
+                }
+            }
+
+            &_text {
+                &_title{
+                    color: $greenTitle;
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 25px;
+                    margin-bottom: 10px;
+                    transition: 0.3s;
+
+                    @media (max-width: $mp5) {
+                        font-size: 20px;
+                        line-height: 17px;
+                    }
+                }
+
+                &_subtitle {
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 25px;
+                    transition: 0.3s;
+
+                    @media (max-width: $mp5) {
+                        font-size: 20px;
+                        line-height: 17px;
+                    }
+                }
+            }
         }
     }
 
