@@ -1,0 +1,59 @@
+@import "@/styles/variables.scss";
+
+.departmentWorkScheduleHeader {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: $white;
+    width: 1177px;
+    height: 73px;
+    background-color: $mainGreen;
+
+    &__office {
+        width: 73px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__specialty {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__name {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__workSchedule {
+
+        &_title{
+            width: 705px;
+            height: 39px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $darkGreen;
+        }
+        &_days {
+            display: flex;
+        }
+
+        &_day {
+            width: 141px;
+            height: 34px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -43,6 +43,11 @@
         font-size: 40px;
         font-weight: 700;
     }
+
+    &__workSchedule{
+        width: 100%;
+        overflow-x: auto;
+    }
 }
 
 .departmentTab {
