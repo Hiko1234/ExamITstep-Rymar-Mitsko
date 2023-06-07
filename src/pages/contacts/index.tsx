@@ -4,7 +4,7 @@ import s from "./Contacts.module.scss"
 // import components
 import Container from '@/components/container'
 import ContactsData from '@/components/contactsPage/contactsData'
-import Map from '@/components/contactsPage/map'
+import Map from '@/components/contactsPage/Map'
 import OtherContacts from '@/components/contactsPage/otherСontacts'
 
 const Contacts = () => {
