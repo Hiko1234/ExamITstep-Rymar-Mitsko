@@ -81,9 +81,13 @@ const PoliklinichneViddilennya = () => {
             <div className={toggleState === 3 ? `${s.dBlock}` : `${s.dNone}`}>
               <div className={s.departmentPage__workSchedule}>
                 <DepartmentWorkScheduleHeader />
-                {doctorsDepartment.map((doctor: any) => (
-                  <DepartmentWorkSchedule work={doctor} />
-                ))}
+                {doctorsDepartment.length > 0 ? (
+                  <>
+                    {doctorsDepartment.map((doctor: any) => (
+                      <DepartmentWorkSchedule work={doctor} />
+                    ))}
+                  </>
+                ) : <p className={s.departmentPage__doctorsError}>Графік лікарів не знайдено</p>}
               </div>
             </div>
           </Container>
