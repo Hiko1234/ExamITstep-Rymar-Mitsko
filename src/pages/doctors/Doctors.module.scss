@@ -124,7 +124,8 @@
         flex-wrap: wrap;
 
         @media(max-width: $mp1) {
-            justify-content: space-around;
+            justify-content: center;
+
         }
     }
 

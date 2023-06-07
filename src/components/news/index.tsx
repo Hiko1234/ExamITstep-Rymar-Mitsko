@@ -23,43 +23,56 @@ const NewsComponent = () => {
 
                 <div className={s.news__posts}>
                     <div className={s.news__posts_info}>
-                        <Image className={s.news__posts_info_img}
+                        <Link href='/news'>
+                            <Image className={s.news__posts_info_img}
                             src={news1}
                             width={248}
                             height={215}
-                            alt="декор пульс"
-                        />
+                            alt="День стоматолога"
+                            />
+                        </Link>
 
                         <div className={s.news__posts_info_text}>
                             <p className={s.news__posts_info_text_title}>
                                 9 лютого
                             </p>
-
-                            <p className={s.news__posts_info_text_subtitle}>
-                                9 лютого - Міжнародний<br />
-                                день стоматолога
-                            </p>
+                            <Link style={{
+                                textDecoration: 'none',
+                                color: '#000'
+                            }} href='/news'>
+                                <p className={s.news__posts_info_text_subtitle}>
+                                    9 лютого - Міжнародний<br />
+                                    день стоматолога
+                                </p>
+                            </Link>
                         </div>
                     </div>
 
                     <div className={s.news__posts_info}>
-                        <Image className={s.news__posts_info_img}
+                        <Link href='/news'>
+                            <Image className={s.news__posts_info_img}
                             src={news2}
                             width={248}
                             height={215}
-                            alt="декор пульс"
-                        />
+                            alt="Ковід сертифікат"
+                            />
+                        </Link>
 
                         <div className={s.news__posts_info_text}>
                             <p className={s.news__posts_info_text_title}>
                                 8 лютого
                             </p>
 
-                            <p className={s.news__posts_info_text_subtitle}>
-                                COVID-сертифікат для<br />
-                                щеплених бустерною<br />
-                                дозою тепер у Дія
-                            </p>
+                            <Link style={{
+                                textDecoration: 'none',
+                                color: '#000'
+                            }} href='/news'>
+                                <p className={s.news__posts_info_text_subtitle}>
+                                    COVID-сертифікат для<br />
+                                    щеплених бустерною<br />
+                                    дозою тепер у Дія
+                                </p>
+                            </Link>
                         </div>
                     </div>
                 </div>
