@@ -5,17 +5,17 @@ import s from "./Nav.module.scss"
 import Link from 'next/link';
 
 const firstLinks = [
-    { text: 'Підрозділи', path: '/' },
-    { text: 'Графіки роботи', path: '/' },
-    { text: 'Декларація з лікарем', path: '/' },
-    { text: 'Доступні ліки', path: '/' },
-    { text: 'Про поліклініку', path: '/' },
+    { text: 'Підрозділи', path: '/department' },
+    { text: 'Графіки роботи', path: '/workSchedule' },
+    { text: 'Благодійність', path: '/charity' },
+    { text: 'Доступні ліки', path: 'https://moz.gov.ua/dostupni-liki' },
+    { text: 'Контакти', path: '/contacts' },
 ];
 
 const secondLinks = [
-    { text: 'Публічні закупівлі', path: '/' },
-    { text: 'Профспілка медичних працівників', path: '/' },
-    { text: 'Міські цільові соціальні програми', path: '/' },
+    { text: 'Публічні закупівлі', path: '/paid' },
+    { text: 'Анонімне звернення', path: '/request' },
+    { text: 'Новини', path: '/news' },
 ]
 
 const Nav = () => {
