@@ -25,7 +25,14 @@ const dataDoctors = [
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
-        departamentImg: departament1
+        departamentImg: departament1,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 2,
@@ -39,7 +46,14 @@ const dataDoctors = [
         office: 417,
         department: "Поліклінічне відділення",
         image: doctor2,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 3,
@@ -53,7 +67,14 @@ const dataDoctors = [
         office: 414,
         department: "Поліклінічне відділення",
         image: doctor3,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 4,
@@ -67,7 +88,14 @@ const dataDoctors = [
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
-        departamentImg: departament1
+        departamentImg: departament1,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 5,
@@ -81,7 +109,14 @@ const dataDoctors = [
         office: 417,
         department: "Поліклінічне відділення",
         image: doctor2,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 6,
@@ -95,7 +130,14 @@ const dataDoctors = [
         office: 414,
         department: "Поліклінічне відділення",
         image: doctor3,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 7,
@@ -109,7 +151,14 @@ const dataDoctors = [
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
-        departamentImg: departament1
+        departamentImg: departament1,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 8,
@@ -123,7 +172,14 @@ const dataDoctors = [
         office: 417,
         department: "Поліклінічне відділення",
         image: doctor2,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 9,
@@ -137,7 +193,14 @@ const dataDoctors = [
         office: 414,
         department: "Поліклінічне відділення",
         image: doctor3,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 10,
@@ -151,7 +214,14 @@ const dataDoctors = [
         office: 407,
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
-        departamentImg: departament1
+        departamentImg: departament1,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 11,
@@ -165,7 +235,14 @@ const dataDoctors = [
         office: 417,
         department: "Поліклінічне відділення",
         image: doctor2,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
     {
         id: 12,
@@ -179,7 +256,14 @@ const dataDoctors = [
         office: 414,
         department: "Поліклінічне відділення",
         image: doctor3,
-        departamentImg: departament2
+        departamentImg: departament2,
+        workSchedule: {
+            monday: "8:00 – 15:12",
+            tuesday: "8:00 – 15:12",
+            wednesday: "8:00 – 15:12",
+            thursday: "8:00 – 15:12",
+            friday: "8:00 – 15:12", 
+        }
     },
 ];
 
