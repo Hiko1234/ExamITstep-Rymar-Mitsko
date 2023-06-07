@@ -1,0 +1,70 @@
+@import "@/styles/variables.scss";
+
+.departmentWork {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: $black;
+    width: 1177px;
+    height: 73px;
+    background-color: $collectiveBG;
+    border-bottom: 1px solid $mainGreen;
+
+    &:last-child {
+        border-bottom: 0px;
+    }
+
+    &__office {
+        font-size: 16px;
+        font-weight: 700;
+        width: 73px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__specialty {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__name {
+        position: relative;
+        font-weight: 700;
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_img {
+            margin-right: 4px;
+            // &:hover{
+            //     .departmentWork__name_hover{
+            //         display: block;
+            //     }
+            // }
+        }
+
+        // fixed this
+        &_hover {
+            position: absolute;
+            left: 0;
+            top: -100px;
+            display: none;
+        }
+        // ------
+    }
+
+    &__schedule {
+        width: 141px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

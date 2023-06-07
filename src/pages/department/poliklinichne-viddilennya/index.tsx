@@ -5,6 +5,8 @@ import s from "../DepartmentPage.module.scss"
 import Container from '@/components/container'
 import DepartmentTitle from '@/components/departmentPageComponents/departmentTitle'
 import DepartmentInfo from '@/components/departmentPageComponents/departmentInfo'
+import DepartmentWorkSchedule from '@/components/departmentPageComponents/departmentWorkSchedule'
+import DepartmentWorkScheduleHeader from '@/components/departmentPageComponents/departmentWorkScheduleHeader'
 import CardDoctors from '@/components/card/cardDoctors'
 // import data
 import dataDoctors from '@/data/doctors'
@@ -76,7 +78,14 @@ const PoliklinichneViddilennya = () => {
                 </div>
               ) : <p className={s.departmentPage__doctorsError}>Лікарів не знайдено</p>}
             </div>
-            <div className={toggleState === 3 ? `${s.dBlock}` : `${s.dNone}`}>3</div>
+            <div className={toggleState === 3 ? `${s.dBlock}` : `${s.dNone}`}>
+              <div className={s.departmentPage__workSchedule}>
+                <DepartmentWorkScheduleHeader />
+                {doctorsDepartment.map((doctor: any) => (
+                  <DepartmentWorkSchedule work={doctor} />
+                ))}
+              </div>
+            </div>
           </Container>
         </div>
       </div>
