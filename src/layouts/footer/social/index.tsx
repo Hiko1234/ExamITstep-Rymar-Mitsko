@@ -9,7 +9,7 @@ import facebook from '../../../assets/img/footer/facebook.png';
 import telegram from '../../../assets/img/footer/telegram.png';
 
 const socialLinks = [
-    { text: "Facebook", image: facebook, path: "/" },
+    { text: "Facebook", image: facebook, path: "https://www.facebook.com/p/%D0%9A%D0%9D%D0%9F-%D0%A1%D1%82%D1%80%D0%B8%D0%B9%D1%81%D1%8C%D0%BA%D0%B0-%D0%A6%D0%A0%D0%9B-100057353443150/?paipv=0&eav=AfaiNbrSerao9ROB1DwnWiRbZSK_CGW4-jbNkBijuFspuo8c6drk078zRLUJwwBKL80&_rdr" },
     { text: "Telegram", image: telegram, path: "https://t.me/strij_central_regional_hospital" },
 ]
 
