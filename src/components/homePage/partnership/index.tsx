@@ -21,7 +21,7 @@ const Partnership = () => {
                 </div>
 
                 <div className={s.partnershipBlock__partners}>
-                    <Link href='https://eliky.in.ua/'>
+                    <Link href='https://eliky.in.ua/' target="_blank">
                         <Image
                             src={eLiku}
                             width={125}
@@ -30,7 +30,7 @@ const Partnership = () => {
                         />
                     </Link>
 
-                    <Link href='https://askep.net/'>
+                    <Link href='https://askep.net/' target="_blank">
                         <Image
                             src={askep}
                             width={100}
@@ -39,7 +39,7 @@ const Partnership = () => {
                         />
                     </Link>
 
-                    <Link href='https://nszu.gov.ua/'>
+                    <Link href='https://nszu.gov.ua/' target="_blank">
                         <Image
                             src={nszu}
                             width={208}
@@ -48,7 +48,7 @@ const Partnership = () => {
                         />
                     </Link>
 
-                    <Link href='https://moz.gov.ua/'>
+                    <Link href='https://moz.gov.ua/' target="_blank">
                         <Image
                             src={moz}
                             width={70}
@@ -57,7 +57,7 @@ const Partnership = () => {
                         />
                     </Link>
 
-                    <Link style={{
+                    <Link target="_blank" style={{
                         textDecoration: 'none',
                         color: '#000'
                     }}

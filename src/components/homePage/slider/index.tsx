@@ -33,7 +33,7 @@ const Slider = () => {
                 {data.map((slide) => (
                     <SwiperSlide className={s.slide}>
                         <div className={s.slide__wrapper}>
-                            <Link className={s.slide__link} href="#">
+                            <Link className={s.slide__link} href="/news">
                                 <Image className={s.slide__img} src={slide.image} alt={slide.title} />
                                 <div className={s.slide__info}>
                                     <div className={s.slide__info_date}><span>{slide.date}</span></div>
