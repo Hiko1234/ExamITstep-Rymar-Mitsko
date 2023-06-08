@@ -18,13 +18,15 @@ const RequestItem = () => {
                 }}></textarea>
             </form>
             <div className={s.requestForm__btn}>
-                <div className={s.requestForm__btn_checkbox}>
+                <label className={s.requestForm__btn_checkbox}>
                     <input
+                        className={s.realCheckbox}
                         type="checkbox"
                         onChange={() => setCheckbox(!checkbox)}
                     />
-                    <label>Я хочу отримати офіційну відповідь на email</label>
-                </div>
+                    <span className={s.customCheckbox}></span>
+                    <span>Я хочу отримати офіційну відповідь на email</span>
+                </label>
                 <button className={s.requestForm__btn_button} onClick={() => {
                     setPopup(true)
                 }}>НАДІСЛАТИ</button>
