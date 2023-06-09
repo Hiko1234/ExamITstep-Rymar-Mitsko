@@ -43,6 +43,10 @@
             }
         }
 
+        &_checkboxText{
+            width: fit-content;
+        } 
+
         &_button {
             width: 222px;
             height: 46px;
@@ -150,18 +154,19 @@
 
     &::before {
         position: absolute;
-        left: 4px;
-        top: 6px;
-        transform: rotate(-50deg) scale(0);
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0);
         content: "";
-        width: 4px;
-        height: 10px;
-        background-color: $rateGreen;
-        border-radius: 5px;
-        transition: 0.3s;
+        width: 13px;
+        height: 13px;
+        background-image: url("./checkboxTrue.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: 0.2s;
     }
 }
 
 .realCheckbox:checked+.customCheckbox::before {
-    transform: rotate(-50deg) scale(1);
+    transform: translate(-50%, -50%) scale(1);
 }

@@ -25,7 +25,7 @@ const RequestItem = () => {
                         onChange={() => setCheckbox(!checkbox)}
                     />
                     <span className={s.customCheckbox}></span>
-                    <span>Я хочу отримати офіційну відповідь на email</span>
+                    <span className={s.requestForm__btn_checkboxText}>Я хочу отримати офіційну відповідь на email</span>
                 </label>
                 <button className={s.requestForm__btn_button} onClick={() => {
                     setPopup(true)
