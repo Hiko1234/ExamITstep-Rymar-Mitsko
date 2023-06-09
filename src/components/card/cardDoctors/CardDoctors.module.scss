@@ -2,7 +2,7 @@
 
 .cardDoctors{
     width: 286px;
-    height: 350px;
+    min-height: 350px;
     border-radius: 12px;
     &:hover{
         .cardDoctors__hover{

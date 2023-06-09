@@ -40,24 +40,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        &_img {
-            margin-right: 4px;
-            // &:hover{
-            //     .departmentWork__name_hover{
-            //         display: block;
-            //     }
-            // }
-        }
-
-        // fixed this
-        &_hover {
-            position: absolute;
-            left: 0;
-            top: -100px;
-            display: none;
-        }
-        // ------
     }
 
     &__schedule {
@@ -67,4 +49,14 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+.hoverBtn{
+    margin-right: 4px;
+}
+
+.hoverEffect{
+    position: absolute;
+    top: -330px;
+    left: -44%;
 }

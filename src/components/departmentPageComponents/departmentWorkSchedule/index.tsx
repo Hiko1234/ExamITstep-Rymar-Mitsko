@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import styles
 import s from "./DepartmentWorkSchedule.module.scss"
 // import components
@@ -10,6 +10,15 @@ import hover from "../../../assets/img/departmentPage/department1.png"
 const DepartmentWorkSchedule = (props: any) => {
     const { work } = props;
     const { image, name, lastName, fatherName, specialty, workSchedule, office } = work;
+    const [isHovered, setIsHovered] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    };
+
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    };
 
     return (
         <>
@@ -17,11 +26,19 @@ const DepartmentWorkSchedule = (props: any) => {
                 <div className={s.departmentWork__office}>{office}</div>
                 <div className={s.departmentWork__specialty}>{specialty}</div>
                 <div className={s.departmentWork__name}>
-                    <Image className={s.departmentWork__name_img} src={hover} alt={lastName} width={14} height={14} />
-                    <span>{lastName} {name[0]}. {fatherName[0]}.</span>
-                    <div className={s.departmentWork__name_hover}>
-                        <CardDoctors data={work} />
+                    <div
+                        className={s.hoverBtn}
+                        onMouseEnter={handleMouseEnter}
+                        onMouseLeave={handleMouseLeave}
+                    >
+                        <Image className={s.hoverBtn__image} src={hover} alt={lastName} width={14} height={14} />
                     </div>
+                    <span className={s.departmentWork__text}>{lastName} {name[0]}. {fatherName[0]}.</span>
+                    {isHovered && (
+                        <div className={s.hoverEffect}>
+                            <CardDoctors data={work} />
+                        </div>
+                    )}
                 </div>
                 <div className={s.departmentWork__schedule}>{workSchedule.monday}</div>
                 <div className={s.departmentWork__schedule}>{workSchedule.tuesday}</div>

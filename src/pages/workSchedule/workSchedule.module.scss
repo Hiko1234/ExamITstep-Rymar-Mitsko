@@ -14,7 +14,6 @@
 
     &__wrapper {
         padding-top: 33px;
-        overflow-x: auto;
     }
 
     &__title {
@@ -31,7 +30,7 @@
     }
 
     &__info {
-
+        overflow-x: auto;
         table {
             width: 100%;
 
@@ -64,6 +63,24 @@
                     border-bottom: 1px solid $rateGreen;
                 }
             }
+        }
+    }
+
+    &__otherDepartment {
+        padding-top: 95px;
+
+        &_title {
+            font-size: 24px;
+            font-weight: 700;
+            color: $black;
+            text-align: center;
+        }
+
+        &_cards {
+            display: flex;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding-top: 63px;
         }
     }
 }

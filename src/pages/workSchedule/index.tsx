@@ -3,6 +3,7 @@ import React from 'react';
 import s from './workSchedule.module.scss';
 //import components
 import Container from '@/components/container';
+import CardDepartmentSmall from '@/components/card/cardDepartmentSmall';
 
 const workSchedule = () => {
     return (
@@ -115,6 +116,12 @@ const workSchedule = () => {
                                     </tr>
                                 </tbody>
                             </table>
+                        </div>
+                        <div className={s.workSchedule__otherDepartment}>
+                            <h4 className={s.workSchedule__otherDepartment_title}>Графік прийому інших відділень:</h4>
+                            <div className={s.workSchedule__otherDepartment_cards}>
+                                <CardDepartmentSmall />
+                            </div>
                         </div>
                     </div>
                 </Container>
