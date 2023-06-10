@@ -21,7 +21,7 @@ const Social = () => {
                 <div className={s.social__subtext}><p>слідкуйте за оновленнями в соц. мережах</p></div>
                 <div className={s.social__links}>
                     {socialLinks.map((link) => (
-                        <Link className={s.social__links_link} href={link.path}>
+                        <Link target='_blank' className={s.social__links_link} href={link.path}>
                             <Image className={s.social__links_img} src={link.image} alt={link.text} width={32} height={32}/>
                         </Link>
                     ))}
