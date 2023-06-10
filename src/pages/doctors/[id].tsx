@@ -56,7 +56,7 @@ const SingleDoctors = () => {
               <div className={s.singleDoctor__card_data}>
                 <h4 className={s.singleDoctor__card_dataName}>{doctor?.lastName} {doctor?.name} {doctor?.fatherName}</h4>
                 <p className={s.singleDoctor__card_dataSpecialty}>{doctor?.specialty}</p>
-                <Link className={s.singleDoctor__dataDepartament} href="/department">
+              <Link className={s.singleDoctor__dataDepartament} href={`/department${doctor?.pathDepartment}`}>
                   <div className={s.singleDoctor__dataDepartament_imgWrapper}>
                     <Image className={s.singleDoctor__dataDepartament_img} src={doctor?.departamentImg} alt={doctor?.department} width={32} height={32} />
                   </div>

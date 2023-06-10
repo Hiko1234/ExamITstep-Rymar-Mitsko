@@ -26,6 +26,7 @@ const dataDoctors = [
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
         departamentImg: departament1,
+        pathDepartment: "/viddilennya-nevidkladnoyi-ekstrenoyi-medychnoyi-dopomogy",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -47,6 +48,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor2,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -89,6 +91,7 @@ const dataDoctors = [
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
         departamentImg: departament1,
+        pathDepartment: "/viddilennya-nevidkladnoyi-ekstrenoyi-medychnoyi-dopomogy",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -110,6 +113,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor2,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -131,6 +135,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor3,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -152,6 +157,7 @@ const dataDoctors = [
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
         departamentImg: departament1,
+        pathDepartment: "/viddilennya-nevidkladnoyi-ekstrenoyi-medychnoyi-dopomogy",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -173,6 +179,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor2,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -194,6 +201,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor3,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -215,6 +223,7 @@ const dataDoctors = [
         department: "Відділення  невідкладної  (екстреної)  медичної  допомоги",
         image: doctor1,
         departamentImg: departament1,
+        pathDepartment: "/viddilennya-nevidkladnoyi-ekstrenoyi-medychnoyi-dopomogy",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -236,6 +245,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor2,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
@@ -257,6 +267,7 @@ const dataDoctors = [
         department: "Поліклінічне відділення",
         image: doctor3,
         departamentImg: departament2,
+        pathDepartment: "/poliklinichne-viddilennya",
         workSchedule: {
             monday: "8:00 – 15:12",
             tuesday: "8:00 – 15:12",
